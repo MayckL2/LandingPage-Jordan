@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=ZCOOL+QingKe+HuangYou&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.925);
+  color: white;
+  font-family: 'Bebas Neue', cursive;
+  overflow-x: hidden;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+header {
+  height: 100px;
+  background-color: gray;
+}
+
+header div {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+header div a {
+  margin: 30px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+header div a:hover {
+  color: purple;
+}
+
+.logo {
+  position: absolute;
+  left: 50%;
+  top: 0px;
+}
+
+.logo img {
+  width: 100px;
+}
+
+.black {
+  background-color: black;
+}
+
+.inicio {
+  background-image: url(base/air-jordan-basketball-chicago-bulls-michael-jordan-wallpaper-preview.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  left: 10%;
+  height: 600px;
+  width: 1000px;
+  z-index: 1;
+}
+
+.inicio div {
+  position: absolute;
+  top: 50px;
+  right: 100px;
+  width: 400px;
+  height: 800px;
+}
+
+.inicio div h2 {
+  position: absolute;
+  top: 10px;
+  right: 20%;
+}
+
+.inicio div h3 {
+  position: absolute;
+  top: 80px;
+  right: 0px;
+  width: 400px;
+}
+
+.firt {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 100px auto;
+      grid-template-columns: 100px auto;
+  padding: 50px;
+  background-color: red;
+  color: white;
+}
+
+.firt div:first-child {
+  width: 500px;
+  z-index: 1;
+}
+
+.firt img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.second {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 250px 300px;
+      grid-template-columns: 250px 300px;
+  padding: 50px;
+  background-color: black;
+  color: red;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
+.second div {
+  float: right;
+}
+
+.third {
+  position: relative;
+  left: 2%;
+  padding: 50px;
+}
+
+.third .slider {
+  width: 1200px;
+  height: 200px;
+  overflow: hidden;
+}
+
+.third .slider div {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+      grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+  position: relative;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.third .slider img {
+  width: 300px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: relative;
+}
+
+.forth {
+  padding: 50px;
+  position: relative;
+  background-color: rgba(128, 0, 128, 0.411);
+  height: 650px;
+}
+
+.forth h2 {
+  position: absolute;
+  left: 40%;
+}
+
+.forth .a, .b {
+  display: inline;
+}
+
+.forth .a img {
+  width: 600px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.forth .b img {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+footer {
+  border-top: 5px solid gray;
+  padding: 50px;
+}
+
+footer h2 {
+  margin-bottom: 30px;
+}
+
+footer p img {
+  width: 30px;
+  height: 15px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+@media (orientation: portrait) {
+  header {
+    height: 300px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .logo {
+    left: 40%;
+  }
+  header div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    top: 120px;
+    left: 30%;
+  }
+}
+/*# sourceMappingURL=index.css.map */
