@@ -4,7 +4,7 @@ function rola(){
     var tam= Math.abs(Math.round(tam.top));
     var tela= document.querySelector("body").offsetWidth
     // document.querySelector("#saida2").innerHTML = document.querySelector("body").offsetWidth
-    // document.querySelector("#saida").innerHTML= tam;
+    document.querySelector("#saida").innerHTML= tam;
 
     // if(tam < 300){
     //     document.getElementById("saida").style.color= "yellow";
@@ -18,7 +18,7 @@ function rola(){
     let s = document.querySelectorAll("#surje")
 
     if (tela > 900){
-        if (tam >= 200 ){
+        if (tam >= 450 ){
             mos[1].style.backgroundPosition = "left"
             s[0].style.opacity = "1"
         }else{
@@ -26,7 +26,7 @@ function rola(){
             s[0].style.opacity = "0"
         }
     
-        if (tam >= 700 ){
+        if (tam >= 1100 ){
             mos[2].style.backgroundSize = "600px"
             s[1].style.opacity = "1"
         }else{
@@ -34,7 +34,7 @@ function rola(){
             s[1].style.opacity = "0"
         }
     
-        if (tam >= 1300 ){
+        if (tam >= 1550 ){
             mos[3].style.backgroundPosition = "right"
             s[2].style.opacity = "1"
         }else{
@@ -42,9 +42,9 @@ function rola(){
             s[2].style.opacity = "0"
         }
     
-        if (tam >= 2000 ){
+        if (tam >= 2500 ){
             document.querySelector("#img1").style.left = "300px"
-            document.querySelector("#img2").style.left = "600px"
+            document.querySelector("#img2").style.left = "700px"
             s[3].style.opacity = "1"
         }else{
             document.querySelector("#img1").style.left = "0px"

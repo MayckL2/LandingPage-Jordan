@@ -4,6 +4,9 @@
     padding: 0px;
     font-family: sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: black;
     color: white;
@@ -154,11 +157,12 @@ section:nth-of-type(5){
         width: 1500px;
         height: 600px;
         position: relative;
-        // left: 20%;
+        top: 0px;
         scale: 0.8;
 
         img:nth-child(1){
             position: absolute;
+            top: 0px;
             left: 0px;
             transition: 1s all;
         }
@@ -218,7 +222,7 @@ footer{
 
 // ============ Responsivo =============
 
-@media (max-width: 1750px){
+@media (max-width: 900px){
     header{
         img{
             margin-right: 20%;
@@ -265,11 +269,11 @@ footer{
             height: 900px;
 
             img:nth-child(1){
-                left: -20vw;
+                left: -20vw !important;
             }
 
             img:nth-child(2){
-                left: -20vw;
+                left: 40vw !important;
                 top: 450px;
             }
         }
